@@ -17,7 +17,7 @@ void createAndFillVector(int N) {
     std::cout << "Size: " << v.size() << '\n';
     std::cout << "Capacity: " << v.capacity() << '\n';
 
-    assert(v.size() == static_cast<std::size_t>(N));
+    assert(v.size() == N);
 
     for (int i = 0; i < N; ++i) {
         assert(v[i] == i + 1);
